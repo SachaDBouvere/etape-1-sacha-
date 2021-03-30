@@ -531,4 +531,20 @@ label vertebre_oui_marin_alimentation:
 
 label colorophile :
     
-    n "wiiiiiip"
+    #monsieur ADN apparait 
+
+    n "Sais-tu ce qu’il s’est passé chez les individus vivant dans les zones où les météorites roses ont frappé ?"
+
+    n "Au cours des générations, les populations de Pellegrinus Smakus vont subir une sélection se basant sur la couleur de leur environnement."
+
+    n "En effet, certaines plantes dont ils se nourrissaient n’ont pas été touché par le colorant, ce qui implique la mort de tout être en mangeant."
+
+    n "Cependant, d’autres dont ils étaient également de grands consommateurs vont être touchés, ainsi que certaines qu’ils ne mangeaient pas avant."
+
+    n "A un moment donné de l’histoire de cette population, un individu mutant va être plus attirer par la couleur rose et va se nourrir que de la matière de cette couleur."
+
+    n "Cette mutation étant un avantage sélectif va lui procurer un plus haut taux de survie ainsi qu’une plus grande chance de reproduction à lui et à sa descendance."
+
+    n "Petit à petit cette nouvelle espèce qualifiée de colorovore rosophile va devenir de plus en plus importante alors que le pellegrinus smakus va s’éteindre…"
+
+    return
