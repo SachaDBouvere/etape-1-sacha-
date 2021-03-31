@@ -353,9 +353,9 @@ label scenario_vertebre_oui_terrestre:
     menu : 
         "Préfères tu poursuivre avec les descendants des Carnicroqus ou des Broutiminus?"
 
-        "Lignée des Carnicroqus " :
+        "Lignée des Carnicroqus" :
             jump Lignee_des_Carnicroqus 
-        "Lignée des Broutiminus " :
+        "Lignée des Broutiminus" :
             m "Hello, me revoilà, as-tu remarqué un animal étrange dans le marais où nous nous sommes rendus précédemment ?"
 #(Retour sur le marais, dans un le cours d’eau mettre un animal qui ressemble à un Squelettus Chordus) 
 
@@ -379,7 +379,6 @@ label scenario_vertebre_oui_terrestre:
     
 
 
-
     return
 
 label meteorite_rose:
@@ -397,6 +396,7 @@ label meteorite_rose:
     n "Cette mutation étant un avantage sélectif va lui procurer un plus haut taux de survie ainsi qu’une plus grande chance de reproduction à lui et à sa descendance."
 
     n "Petit à petit cette nouvelle espèce qualifiée de colorovore rosophile va devenir de plus en plus importante alors que le pellegrinus smakus va s’éteindre…"
+jump rosovore
 
     return
 
@@ -426,125 +426,83 @@ label Lignee_des_Carnicroqus :
 
     return
 
-label vertebre_oui_marin_alimentation:
+label rosovore 
 
-    n "Après 1000000 d’années, alors que certains amis sont partis découvrir la faune locale à l’extérieur de l’eau, un des descendants des Squelettus Chordus, le Pellegrinus Smakus, lui est resté bien tranquillement dans son habitait naturel : l’océan"
+    n "Apres quelques milliers d’années, un des descendants de notre Rosus fermatus, le Rosus figarus vit dans une grande partie de l’océan et surtout dans les grandes profondeurs car la principale source de nourriture de notre ami est la plante Abyssae, uniquement présente dans le fond de l’océan sur les abysses."
+    n "L’eau de l’océan fait +- 17-18°C."
+
+#(photo de la plante)
+
+#(video/image de la collision et explosion) 
+
+    n "L’atmosphère de notre planète s’est fortement calmée. Les météorites ne tombent plus sur Hermiteon 1."
     
-    n "Un océan contenant une eau translucide, peu profonde et tout pleins de microorganismes tel que le planktus verdus."
-
-#(image d’un océan haut en couleur et pleins de vie) + loupe avec Planktus verdus à l’intérieur
-
-    n "Faisons un bond de 1000 ans dans le temps. "
-
-#(Faire apparaître la même image) 
-
-    n "Comme tu peux le voir notre Pellegrinus smakus n’a pas vraiment changé, il a toujours la même morphologie et la même façon de vivre. Pourquoi ?"
-   
-    n "Tout simplement parce que l’évolution est très lente et que son environnement n’a pas nécessairement beaucoup varié. Comme tu t’en doutes, l’océan est très vaste !"
+    n "La diminution de chaleur produite lors de la collision des météorites sur la planète provoque un refroidissement de la mer constant au fil du temps."
     
-    n "De ce fait, le Pellegrinus smakus s’est bien dispersé en quelques siècles. On en retrouve à des milliers de kilomètres à la ronde. L’environnement est plutôt semblable malgré quelques petites différences de co-habitants tel que les Nemos Gruroer et de nutriments."
+    n "Quelques dizaines de millions d’années plus tard, l’eau profonde avait perdu plus de 15° et ne faisait donc plus que 2°."
+    
+    n "Cependant, les eaux en surface chauffent grâce aux rayons du soleil et aux terres avoisinantes ce qui provoque donc une variation décroissante de la chaleur du haut vers le bas."
+    
+    n "Certaines populations, plus frileuses, migrent vers les eaux proches de la surface alors que d’autres restent dans les profondeurs."
 
-#(Image des deux populations avec des autres animaux et plantes)
+    n "Dans les profondeurs, la plante Abyssae est toujours présente car elle résiste à de forts changements de température."
 
-    n "OHH mais que voit-on ?"
+    n "Cependant une caractéristique environnementale du Rosus figarus, la température de l’eau, a elle été fortement changée."
 
-#(Image d’une météorite qui arrive sur HERMITEON-1)
+    n "Au cours du temps certains nouveaux cohabitants, tel que l’Aqua jadus s’y installe."
 
-    n "Ne serait-ce pas un très gros caillou dans le ciel tout la haut ? Ou même plusieurs non ?"
-    
-    n "Il s’agit en effet de météorites, de grosses pierres solides d’origine extraterrestre qui arrivent à toute vitesse sur notre planète NEMO."
-    
-    n "Ces météorites seraient contaminées d’organismes microscopiques et de molécules venant de l’espace qui n’ont rien à voir avec ceux qu’on trouve sur NEMO."
+#(image d’un fond marin peu lumineux)
 
-#mister ADN se pointe et explique la panspermie 
+    n "Dans les eaux superficielles (eau de surface), l’eau a donc une température voisine de celle d’il y a des millions d’années (16°)."
 
-    m "Ceci ne te rappelle pas une certaine théorie que l’on nomme « panspermie » qui expliquerait le fait de l’arrivée de la vie sur Terre ?" 
-    
-    m "En effet, certains scientifiques pensent que la vie vient d’une météorite extraterrestre contaminée de molécules organiques (sucres, lipides, peptides) qui se seraient assemblées pour former le vivant. Dans notre cas, ces météorites …"
-
-#(Image de l’impact des météorites sur HERMITEON-1)
-
-    n "Ces météorites vont s’écraser dans l’océan à des endroits bien distincts contenant tous le Pelleginus smakus et provoquer des ondes sismiques et de nombreux petits tsunamis sur les côtes."
-    
-    n "Certains individus de l’espèce vont mourir à cause du choc par écrasement ou percussion de débris mais d’autres vont s’en sortir quasiment indemnes. Quasiment pourquoi ?"
-    
-    n "Ces météorites sont remplies de molécules et de virus extraterrestres comme dis plus tôt."
-    
-    n "Cependant, ces molécules et virus ont des caractéristiques bien spécifiques… Certaines molécules colorent certaines plantes, organismes, même des cailloux, du sable ou des déchets avec une couleur bien spécifique."
-    
-    n "Les virus quant à eux, sont deux : le premier permet la fabrication de ces mêmes molécules alors que l’autre infeste les plantes. Ce deuxième virus est cependant tué par la molécule colorante et donc n’est présent qu’aux endroits non touchés par le colorant."
-
-#(Image de l’environnement précédent avec certains éléments du décor qui sont complètements roses)
-
-    n "La première météorite était remplie de molécules dont une rose alors que la deuxième était orange."
-    
-    n "Ces deux météorites n’ayant pas atterri au même endroit ont provoqué non seulement un changement dans l’environnement mais aussi de grandes différences au sein d’un même océan, au départ plus ou moins homogène."
-    
-    n "De ce fait, une partie de l’océan, où vivait une population de Pellegrinus smakus donnée, fut colorée en rose alors que d’autres lieux non touchés par la météorite, ont juste senti quelques secousses."
-    
-    n "Ces secousses n’ont cependant pas été sans conséquences !"
-    
-    n "A ces endroits, une plante dont tes amis étaient friands se fait infecter par le deuxième virus amené par les différentes météorites et transporté par les courants marins."
-    
-    n "La transformant en créatrice de biscuits en chocolats et ainsi dénomée la Kindorus buenos. Celle-ci s’installe et infeste les fonds marins à une vitesse phénoménale."
-
-#(Image de la plante et de semences qui se propulsent partout)
-
-    n "Comme tu peux le voir, nos différentes populations de Pellegrinus smakus ont vécu une grande variation d’environnement, que cela soit aux endroits touchés ou ceux non touchés par les météorites."
-    
-    n "Toutefois, savais-tu que certaines molécules sont mortelles pour ton cher ami ?"
-    
-    n "En effet des molécules dispersées sur la planète HERMITEON-1 par les comètes sont néfastes !"
-    
-    n "Cependant, les colorants sont l’antidote."
-    
-    n "Tout cela veut donc dire qu’aux endroits où la météorite a atterri, des molécules néfastes se sont déposées et ton ami ne peut donc manger que les plantes, organismes et cailloux, … de la couleur de la météorite qui y a créé un impact."
-
-#(Image de la planète) 
-
-    n "Alors maintenant c’est à toi de jouer jeune scientifique !"
+    n "Cependant la principale source de nourriture, Abyssae n’est plus présente."
 
     menu :
-        "Veux-tu voir ce qu’il arrive à nos amis vivant aux alentours de l’impact des météorites ou ceux touchés par le virus de la plante Kindorus buenos ?"
-       
-        "suivre la lignée de Pellegrinus Smakus dans la zone touchée par la météorite rose" :
-            jump colorophile
-        "suivre la lignée de Pellegrinus Smakus dans la zone touchée par le virus Kindorus buenos" :
-            
-            #monsieur ADN apparait
-            
-            m "Sais-tu ce qu’il s’est passé chez les individus vivant dans les zones où les métorites roses ont frappé ?"
+        "Alors petit scientifique, veux-tu suivre l’aventure de nos amis Rosus figarus vivant dans les profondeurs ou dans celui qui vit à la surface ?"
+
+        "les profondeurs":
+        jump rosovore_profondeur
+
+        "la surface":  
+
+#(Apparition de monsieur ADN)
+
+        m "Je vois que tu as choisi de suivre l’aventure du Rosus figarus vivant en surface."
     
-    m "Au cours des générations, les populations de Pellegrinus Smakus vont subir une sélection se basant sur la couleur de leur environnement."
+    m "La chaleur de l’eau est donc similaire mais leur principale source de nourriture n’est pas présente."
+
+    m "Beaucoup d’insectes vivent dans les quelques mètres au-dessus de l’eau tels que le Tchumnus ou le Avanzatus."
+
+    m "Au fil du temps, les nageoires latérales du Rosus figarus vont se développer et former des ailes."
+
+    m "Celui-ci est donc capable de voler à quelques mètres de la surface afin de manger des insectes et ainsi se nourrir."
+
+    m "Une nouvelle espèce est née : Rosus aérius."
+
+    return
+
+label rosovore_profondeur
+
+#(Apparition de monsieur ADN)
+
+    m "Tu as donc décidé de suivre l’aventure du Rosus figarus vivant dans les profondeurs."
+
+    m "La chaleur de l’eau est cependant beaucoup trop basse pour l’espèce."
+
+    m "Les fonds marins, habités par le Rosus figarus, sont éclairés par des cnidaires qui produisent de la lumière chimique."
+
+    m "Au cours des générations, ton ami va développer une caractéristique assez spécifique."
+
+    m "Comme tu l’as bien compris, plusieurs « solutions » ont été trouvées,"
     
-    m "En effet, certaines plantes dont ils se nourrissaient n’ont pas été touché par le colorant, ce qui implique la mort de tout être en mangeant."
+    m "mais celle-ci fut la plus avantageuse et donc celle qui s’est le plus éparpillée grâce à la plus longue survie de l’individu et sa reproduction."
+
+    m "Celui-ci va se gonfler d’eau grâce à des pores filtreurs et fait sortir par ceux-ci des feuilles."
+
+    m "Ces feuilles captent la lumière et créent de l’énergie qui permet de réchauffer l’individu."
+
+    m "Cette eau chaude permet de garder l’individu au chaud et de conserver ses organes."
+
+    m "Cette nouvelle espèce se nomme Rosus globulus."
     
-    m "Cependant, d’autres dont ils étaient également de grands consommateurs vont être touchés, ainsi que certaines qu’ils ne mangeaient pas avant."
-    
-    m "A un moment donné de l’histoire de cette population, un individu mutant va être plus attirer par la couleur rose et va se nourrir que de la matière de cette couleur."
-    
-    m "Cette mutation étant un avantage sélectif va lui procurer un plus haut taux de survie ainsi qu’une plus grande chance de reproduction à lui et à sa descendance."
-    
-    m "Petit à petit cette nouvelle espèce qualifiée de colorovore rosophile va devenir de plus en plus importante alors que le pellegrinus smakus va s’éteindre…"
-
-    return 
-
-label colorophile :
-    
-    #monsieur ADN apparait 
-
-    n "Sais-tu ce qu’il s’est passé chez les individus vivant dans les zones où les météorites roses ont frappé ?"
-
-    n "Au cours des générations, les populations de Pellegrinus Smakus vont subir une sélection se basant sur la couleur de leur environnement."
-
-    n "En effet, certaines plantes dont ils se nourrissaient n’ont pas été touché par le colorant, ce qui implique la mort de tout être en mangeant."
-
-    n "Cependant, d’autres dont ils étaient également de grands consommateurs vont être touchés, ainsi que certaines qu’ils ne mangeaient pas avant."
-
-    n "A un moment donné de l’histoire de cette population, un individu mutant va être plus attirer par la couleur rose et va se nourrir que de la matière de cette couleur."
-
-    n "Cette mutation étant un avantage sélectif va lui procurer un plus haut taux de survie ainsi qu’une plus grande chance de reproduction à lui et à sa descendance."
-
-    n "Petit à petit cette nouvelle espèce qualifiée de colorovore rosophile va devenir de plus en plus importante alors que le pellegrinus smakus va s’éteindre…"
-
     return
